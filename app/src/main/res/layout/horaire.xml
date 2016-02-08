@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+        android:text="du 9 au 15 nov 2015"
+        android:gravity="center"
+        android:textAppearance="@android:style/TextAppearance.Large"
+
+        />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:id="@+id/listjourdelasemaine_id">
+
+    </ListView>
+
+</LinearLayout>
